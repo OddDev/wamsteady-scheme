@@ -1,0 +1,36 @@
+{
+  "name": "Test",
+  "description": "A session to test things out",
+  "closed": null,
+  "created": "2017-10-14T12:22:28.929Z",
+  "archers": [
+    {
+      "name": "John Doe",
+      "picture": null,
+      "fletching": "red/white",
+      "targetStations": [
+        {
+          "description": "Turkey",
+          "backgroundColor": "blue",
+          "foregroundColor": "white",
+          "score": {
+            "type": {
+              "name": "Kill",
+              "description": "The inner circle on the animal",
+              "default": true
+            },
+            "arrow": {
+              "sequence": 1
+            },
+            "points": 20
+          }
+        }
+      ]
+    },
+    {
+      "name": "Jane Doe",
+      "picture": null,
+      "fletching": "pink"
+    }
+  ]
+}

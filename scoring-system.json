@@ -1,23 +1,38 @@
-{
-  "name": "Scandinavian",
-  "description": "A pretty basic and common scoring system for 3D archery",
-  "frontPage": true,
-  "default": true,
-  "arrows": [
-    {
-      "sequenceNumber": 1,
-      "kill": 20,
-      "body": 16
-    },
-    {
-      "sequenceNumber": 2,
-      "kill": 14,
-      "body": 10
-    },
-    {
-      "sequenceNumber": 3,
-      "kill": 8,
-      "body": 4
-    }
-  ]
-}
+[
+  {
+    "name": "Scandinavian",
+    "description": "A pretty basic and common scoring system for 3D archery",
+    "frontPage": true,
+    "default": true,
+    "arrows": [
+      {
+        "sequenceNumber": 1,
+        "kill": 20,
+        "body": 16
+      },
+      {
+        "sequenceNumber": 2,
+        "kill": 14,
+        "body": 10
+      },
+      {
+        "sequenceNumber": 3,
+        "kill": 8,
+        "body": 4
+      }
+    ]
+  },
+  {
+    "name": "Hunter",
+    "description": "A common scoring system to simulate a more accurate hunting environment",
+    "frontPage": true,
+    "default": true,
+    "arrows": [
+      {
+        "sequenceNumber": 1,
+        "kill": 10,
+        "body": 5
+      }
+    ]
+  }
+]
